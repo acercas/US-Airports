@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h2>Major US Airport Passenger Traffic in 2016 (Domestic vs International)</h2>
+  <p>By: Alejandro Cercas</p> 
+</div>
+  
+    
+<div class="container">
+  <div class = "row">
+    <div class = "col-sm-6">
+         <h4>Analysis</h4>
+<p>The busiest airports in the US are consistently Atlanta, New York's JFK, Los Angele's LAX and Chicago's Ohare airport. What becomes interesting however is when you break down the numbers and where these passengers are flying, sometimes its like having two seperate airports in one. Some airports have extreme fluctuations in passenger traffic that flies to and from domestic destinations versus their international routes. For example the most extreme are New York's Laguardia airport and Washington D.C's Ronald Reagan airports. Their overall total passenger totals are 29 and 23 million respectively. However when you count their total international passenger traffic it is a fraction of their yearly total, Laguardia only handeled 1 million passengersm and DC's Ronald Reagon saw even fewer, with only 300 thousand. However, both these airports run in tandem with their larger international airport counterparts and are primarily focused on alleviating congested airport hubs and cities that move a lot of passengers.
+    </div>
+    <div class = "col-sm-6">
+        <br>Sourcing the data took up the most energy of the project. There very well may have been an easier method of sourcing and compiling the data automatically, but not knowing how I manually combed through logs and data reports to find the numbers I needed. Each airport creates a yearly report logging various measurements and traffic data, some airports make their reports more extensive then others making sifting for the exact data point I was pulling a bit more tedious. The specific data I was looking for was passenger traffic moving through each individual airport, which is defined as "# of people deplaning" and "# of people enplaning" and finding the total sum of both. Normally these passenger numbers are segmented already by domestic and international passengers however some airpors made this trickier and instead were divided by specific terminals or even specific airlines. 
+        <br>After adding up total sums and dividing the numbers by Domestic vs International the characteristics of each airport and the market they served became apparent. Some airports were almost exclusively domestically served while others were major international hubs. This made itself apparent in my home state of Florida with its two biggest airports Miami and Orlando international airports. Orlando handles notably more domestic passengers then Miami does, being a big hub for flight transfers and having the major tourist draw of Disney and other theme parks. However Miami handles up to 15 million more international passengers then Orlando as it is scene as the United States gateway to Latin America and is Latin America's biggest transfer hub to cities in Europe.
+    <p>
+</p>
+        
+        <p>Their overall total passenger totals are 29 and 23 million respectively. However when you count their total international passenger traffic it is a fraction of their yearly total, Laguardia only handeled 1 million passengersm and DC's Ronald Reagon saw even fewer, with only 300 thousand. However, both these airports run in tandem with their larger international airport counterparts and are primarily a means of relieving congested airport hubs and cities that move a lot of passengers. </p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-6">
+      <div class='tableauPlaceholder' id='viz1513275901194' style='position: relative'><noscript><a href='#'><img alt='Airport Passenger Traffic ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USAirports_2&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='USAirports_2&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USAirports_2&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513275901194');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        
+    
+      <div class='tableauPlaceholder col-sm-6' id='viz1513275706786' style='position: relative'><noscript><a href='#'><img alt='Airport Passenger Traffic ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USAirports2&#47;Story2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='USAirports2&#47;Story2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USAirports2&#47;Story2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513275706786');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+   
+  </div>
+</div>
+
+</body>
+</html>
