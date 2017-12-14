@@ -3,9 +3,9 @@
 ### Metrics + Data Visualization I
 ### Final Project
 
-## Topic
+## Major US Airport Passenger Traffic in 2016 (Domestic vs International)
 
-Major US Airport Passenger Traffic in 2016 (Domestic vs International)
+
 
 ![Imgur](https://i.imgur.com/R6bUDct.jpg)
 
